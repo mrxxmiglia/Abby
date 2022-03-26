@@ -1,0 +1,91 @@
+{
+    "Default Welcome Intent": {
+        "texts": [
+            "{Nickname}, I promised you I'll do my best to help you regain your dream weight in the easiest, most pleasurable, and healthiest way; customized to your individual needs and wants. Llego bien",
+            "Are you ready to start your transformational journey, which includes losing 7 pounds in 3 weeks and ends at your dream weight?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "User Provides A8 All Correct": {
+        "texts": [
+            "{Nickname}, thank you for those Answers!",
+            "It seems you are hydrating perfectly well!",
+            "I recommend you now watch this short video with Will and Eric discussing how to properly hydrate for optimal weight loss.\nWant to watch it?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "User Provides A8 All Not Correct": {
+        "texts": [
+            "{Nickname}, thank you for those Answers!",
+            "I can help you lose weight through proper hydration.",
+            "I recommend you now watch this short video with Will and Eric discussing how to properly hydrate for optimal weight loss.\nWant to watch it?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "User Confirms Video": {
+        "texts": [
+            "{Nickname}, did you find the information in the video useful?"
+        ],
+        "buttons": [
+            "Brilliant",
+            "Average",
+            "Awful",
+            "No",
+            "Yes"
+        ]
+    },
+    "User Denies Video": {
+        "texts": [
+            "{Nickname}, per conversation happened today..."
+        ],
+        "buttons": [
+            "Ok"
+        ]
+    },
+    "A1 Correct": {
+        "texts": [
+            "To improve your hydration for optimal weight loss, it's important to keep your daily intake of coffee, black tea and green tea to a maximum of two cups per day, due to their diuretic effect. Now, can we agree you’ll keep your daily intake of coffee, black tea and green tea, all combined, to a maximum of two cups?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "A2 Correct": {
+        "texts": [
+            "I highly recommend you don’t drink coffee, black tea or green tea after 2pm, as they can have a disruptive effect on your sleep. Should I continue? "
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "A7 Correct": {
+        "texts": [
+            "If losing weight is very important to you, I advise you to NOT drink any sodas (like coke and diet coke), sports and energy drinks (like gatorade and red bull), and commercial fruit juices, due to their high sugar content. Also, to NOT drink dairy milk, as it may cause inflammation. And to NOT drink beer, cider, wine, and spirits (like whisky and tequila) as they are a burden to your liver. May I go on?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+
+    "Hydration": {
+        "texts": [
+            "You've completed today's training. Congratulations! You're one step closer to regaining your health and dream weight. Our next session is about exercise. I promise you want to hear what I have to say, as most advice out there is wrong. Can I count on you to reconnect with me here at the same time tomorrow to discuss how to properly exercise for optimal weight loss?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    }
+}
