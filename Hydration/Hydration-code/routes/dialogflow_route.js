@@ -218,6 +218,10 @@ const handleUserProvidesA8 = async (req) => {
     flag = false;
     result.a_two = false;
   }
+  if (a_five >= 0) {
+    flag = false;
+    result.a_five = false;
+  }
   //flag = check_sleep_time(a_two);
   //result.a_two = flag;
   if (a_seven !== "0") {
@@ -318,7 +322,7 @@ const handleUserConfirmsVideo = (req) => {
 
   let nick_name = user_profile.Content.Nickname;
   let button_link = `${user_profile.Content.URL_PWA}${video_url}`;
-  let button_title = "See the video here...";
+  let button_title = "Click here to watch the video";
   texts = RESPOSES["User Confirms Video"].texts;
   texts[0] = texts[0].replace("{Nickname}", nick_name);
   let buttons = RESPOSES["User Confirms Video"].buttons;
@@ -593,11 +597,11 @@ const handleLastConversation = (req) => {
     new_texts = RESPOSES["A7 Correct"].texts;
     new_buttons = RESPOSES["A7 Correct"].buttons;
     result.a_seven = true;
-  /*} else if (!result.a_five) {
+  } else if (!result.a_five) {
     new_texts = RESPOSES["A5 Correct"].texts;
     new_buttons = RESPOSES["A5 Correct"].buttons;
     result.a_five = true;
-  } else if (!result.a_six) {
+  /*} else if (!result.a_six) {
     new_texts = RESPOSES["A6 Correct"].texts;
     new_buttons = RESPOSES["A6 Correct"].buttons;
     result.a_six = true;*/

@@ -1,17 +1,17 @@
 {
     "Default Welcome Intent": {
         "texts": [
-            "{Nickname}, I promised you I'll do my best to help you regain your dream weight in the easiest, most pleasurable, and healthiest way; customized to your individual needs and wants. Llego bien",
+            "{Nickname}, I promised you I'll do my best to help you regain your dream weight in the easiest, most pleasurable, and healthiest way; customized to your individual needs and wants.",
             "Are you ready to start your transformational journey, which includes losing 7 pounds in 3 weeks and ends at your dream weight?"
         ],
         "buttons": [
-            "Yes",
-            "No"
+            "Yes"
+            
         ]
     },
     "User Provides A8 All Correct": {
         "texts": [
-            "{Nickname}, thank you for those Answers!",
+            "{Nickname}, thank you for those answers!",
             "It seems you are hydrating perfectly well!",
             "I recommend you now watch this short video with Will and Eric discussing how to properly hydrate for optimal weight loss.\nWant to watch it?"
         ],
@@ -22,7 +22,7 @@
     },
     "User Provides A8 All Not Correct": {
         "texts": [
-            "{Nickname}, thank you for those Answers!",
+            "{Nickname}, thank you for those answers!",
             "I can help you lose weight through proper hydration.",
             "I recommend you now watch this short video with Will and Eric discussing how to properly hydrate for optimal weight loss.\nWant to watch it?"
         ],
@@ -38,17 +38,15 @@
         "buttons": [
             "Brilliant",
             "Average",
-            "Awful",
-            "No",
-            "Yes"
+            "Awful"
         ]
     },
     "User Denies Video": {
         "texts": [
-            "{Nickname}, per conversation happened today..."
+            "{Nickname}, per today’s conversation..."
         ],
         "buttons": [
-            "Ok"
+            "Yes"
         ]
     },
     "A1 Correct": {
@@ -56,7 +54,6 @@
             "To improve your hydration for optimal weight loss, it's important to keep your daily intake of coffee, black tea and green tea to a maximum of two cups per day, due to their diuretic effect. Now, can we agree you’ll keep your daily intake of coffee, black tea and green tea, all combined, to a maximum of two cups?"
         ],
         "buttons": [
-            "Yes",
             "No"
         ]
     },
@@ -78,14 +75,23 @@
             "No"
         ]
     },
-
-    "Hydration": {
+    "A5 Correct": {
         "texts": [
-            "You've completed today's training. Congratulations! You're one step closer to regaining your health and dream weight. Our next session is about exercise. I promise you want to hear what I have to say, as most advice out there is wrong. Can I count on you to reconnect with me here at the same time tomorrow to discuss how to properly exercise for optimal weight loss?"
+            "Based on your answers, you daily intake of the good fluids is 1 liter/fluid ounces. But you also drink 0.5 liter/fluid ounces of coffee, black tea or green tea. As a result your net fluid intake is 0.5 liter/fluid ounces, which is less than the recommended 2 liter/fluid ounces for your current weight. Through my Reminders, I’ll help you take the right amount of the good fluids, at the right time, each day. Does this make sense to you?"
         ],
         "buttons": [
             "Yes",
             "No"
+        ]
+    },
+
+    "Hydration": {
+        "texts": [
+            "You've completed today's training. Congratulations! You're one step closer to regaining your health and dream weight. Our next session is about exercise. I promise you want to hear what I have to say, as most advice out there is wrong. I’ll meet you here tomorrow, at the same time. Are you ready to continue your transformational journey that ends at your dream weight?"
+        ],
+        "buttons": [
+            "Yes"
+            
         ]
     }
 }

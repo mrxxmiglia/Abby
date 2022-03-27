@@ -1,7 +1,7 @@
 {
     "Default Welcome Intent": {
         "texts": [
-            "I wholeheartedly welcome you to ActibHealth as our newest subscriber! As you've probably heard before, as your personal artificial intelligence expert coach, I'll help you achieve your dream weight in the easiest, most pleasurable, and healthiest way; customized to your individual needs and wants. Sounds like a good deal?"
+            "{Nickname}, I wholeheartedly welcome you to ActibHealth as our newest subscriber! As you've probably heard before, as your personal artificial intelligence expert coach, I'll help you achieve your dream weight in the easiest, most pleasurable, and healthiest way; customized to your individual needs and wants. Sounds like a good deal?"
         ],
         "buttons": [
             "Yes",
@@ -32,12 +32,11 @@
     },
     "User Confirms Video": {
         "texts": [
-            "{Nickname}, could you complete the information requested?"
+            "{Nickname}, you don't need to return here once you complete the information."
         ],
         "buttons": [
             
-            "No",
-            "Yes"
+            "Remember to click on the above button"
         ]
     },
     "User Denies Video": {

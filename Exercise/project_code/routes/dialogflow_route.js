@@ -294,7 +294,7 @@ const handleUserConfirmsVideo = (req) => {
   let cources = user_profile.Content.Courses;
   let video_url = "";
   cources.forEach((course) => {
-    if (course.Course === "Rest") {
+    if (course.Course === "Excercise") {
       video_url += course.URL_VideoSubscriber;
     }
   });

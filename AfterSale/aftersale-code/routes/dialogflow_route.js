@@ -309,16 +309,16 @@ const handleUserConfirmsVideo = (req) => {
   let user_profile = parameters.user_profile;
 
   let cources = user_profile.Content.Courses;
-  let video_url = "";
-  cources.forEach((course) => {
-    if (course.Course === "Hydration") { //after sale 
-      video_url += course.URL_VideoSubscriber;
-    }
-  });
+  let video_url = "/main/information?state=open";
+  // cources.forEach((course) => {
+  //   if (course.Course === "Hydration") { //after sale 
+  //     video_url += course.URL_VideoSubscriber;
+  //   }
+  // });
 
   let nick_name = user_profile.Content.Nickname;
   let button_link = `${user_profile.Content.URL_PWA}${video_url}`;
-  let button_title = "Link to MY INFORMATION";
+  let button_title = "Click here to start";
   texts = RESPOSES["User Confirms Video"].texts;
   texts[0] = texts[0].replace("{Nickname}", nick_name);
   let buttons = RESPOSES["User Confirms Video"].buttons;

@@ -5,8 +5,7 @@
             "Are you ready to start your transformational journey, which includes losing 7 pounds in 3 weeks and ends at your dream weight?"
         ],
         "buttons": [
-            "Yes",
-            "No"
+            "Yes"
         ]
     },
     "User Provides A8 All Correct": {
@@ -38,17 +37,16 @@
         "buttons": [
             "Brilliant",
             "Average",
-            "Awful",
-            "No",
-            "Yes"
+            "Awful"
+    
         ]
     },
     "User Denies Video": {
         "texts": [
-            "{Nickname}, per conversation happened today..."
+            "{Nickname}, per today’s conversation..."
         ],
         "buttons": [
-            "Ok"
+            "Yes"
         ]
     },
     "A1 Correct": {
@@ -56,7 +54,6 @@
             "It’s crucial for optimal weight loss that you have a 60-minute walk every day, at any time between 6am and 7pm. Ideally, outdoors, if weather allows. It’s also crucial to never become short of breath during this walk. If you can keep a normal conversation while you walk, you are walking at the right pace. Also, you should NOT perform any physical activity at which you become short of breath, as such activity will make you gain weight. The only exception to this rule is doing HIIT for three minutes, three times per week. Lastly, I highly recommend you lift weights three times per week. Once again, without becoming short of breath. Are you still with me?"
         ],
         "buttons": [
-            "Yes",
             "No"
         ]
     },
@@ -105,13 +102,13 @@
             "No"
         ]
     },
-    "Hydration": {
+    "Hydration": { 
         "texts": [
-            "You've completed today's training. Congratulations! You're one step closer to regaining your health and dream weight. Our next session is about hydration, a topic you don't want to miss. Can I count on you to reconnect with me here at the same time tomorrow to discuss hydration?"
+            "You've completed today's training. Congratulations! You're one step closer to regaining your health and dream weight. Our next session is a surprise. A very cool surprise that will give you a 95% chance of success with ActibHealth. You’ll be thrilled once you take our next training. Can I count on you to reconnect with me here at the same time tomorrow to continue your transformational weight loss journey?"
         ],
         "buttons": [
-            "Yes",
-            "No"
+            "Yes"
+            
         ]
     }
 }
