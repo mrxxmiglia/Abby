@@ -5,15 +5,15 @@
             "Are you ready to start your transformational journey, which includes losing 7 pounds in 3 weeks and ends at your dream weight?"
         ],
         "buttons": [
-            "Yes",
-            "No"
+            "Yes"
+            
         ]
     },
     "User Provides A8 All Correct": {
         "texts": [
             "{Nickname}, thank you for those Answers!",
             "It seems you have the most perfect sleep!",
-            "I recommend you now watch this short video with Will and Eric discussing how to improve sleep for weight loss.\nWant to watch it?"
+            "I recommend you now watch this short video with Will and Eric discussing how to improve your sleep for weight loss. Or you can watch it later at the Rest section. Want to watch it now?"
         ],
         "buttons": [
             "Yes",
@@ -24,7 +24,7 @@
         "texts": [
             "{Nickname}, thank you for those Answers!",
             "It seems you can improve your sleep, which will get you in the correct path to losing weight.",
-            "I recommend you now watch this short video with Will and Eric discussing how to improve sleep for weight loss.\nWant to watch it?"
+            "I recommend you now watch this short video with Will and Eric discussing how to improve your sleep for weight loss. Or you can watch it later at the Rest section. Want to watch it now?"
         ],
         "buttons": [
             "Yes",
@@ -38,17 +38,15 @@
         "buttons": [
             "Brilliant",
             "Average",
-            "Awful",
-            "No",
-            "Yes"
+            "Awful"
         ]
     },
     "User Denies Video": {
         "texts": [
-            "{Nickname}, per conversation happened today..."
+            "{Nickname}, per today’s conversation..."
         ],
         "buttons": [
-            "Ok"
+            "Yes"
         ]
     },
     "A1 or A2 Correct": {
@@ -56,8 +54,8 @@
             "To improve your sleep and lose weight, it's crucial that you turn off all lights and screens between 9:30pm and 10:30pm every night, as humans have done for the last 2 million years until the invention of the TV. Does this make sense to you?"
         ],
         "buttons": [
-            "Yes",
             "No"
+            
         ]
     },
     "A3 Correct": {
@@ -101,8 +99,8 @@
             "You've completed today's training. Congratulations! You're one step closer to regaining your health and dream weight. Our next session is about hydration, a topic you don't want to miss. Can I count on you to reconnect with me here at the same time tomorrow to discuss hydration?"
         ],
         "buttons": [
-            "Yes",
-            "No"
+            "Yes"
+            
         ]
     }
 }

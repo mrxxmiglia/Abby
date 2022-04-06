@@ -534,14 +534,13 @@ const handleLastConversation = (req) => {
   ];
   //Metadata de Behavior
   let metadata1 = [
-    
     {
-      MetadataName: "Sleep_Behavior",
-      MetadataValue: parameters.b_time,
+      QuestionID: "2",
+      UserAnswer: parameters.b_time,
     },
     {
-      MetadataName: "Sleep_Behavior1",
-      MetadataValue: parameters.b_time1,
+      QuestionID: "3",
+      UserAnswer: parameters.b_time1,
     }
   ];
 

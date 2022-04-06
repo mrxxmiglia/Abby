@@ -1,0 +1,116 @@
+{
+    "Default Welcome Intent": {
+        "texts": [
+            "{Nickname}, I promised you I'll do my best to help you regain your dream weight in the easiest, most pleasurable, and healthiest way; customized to your individual needs and wants.",
+            "Are you ready to start your transformational journey, which includes losing 7 pounds in 3 weeks and ends at your dream weight?"
+        ],
+        "buttons": [
+            "Yes"
+        ]
+    },
+    "User Provides A8 All Correct": {
+        "texts": [
+            "{Nickname}, thank you for those Answers!",
+            "It seems you are very knowledgeable on how to exercise for optimal weight loss!",
+            "I recommend you now watch this short video with Will and Eric discussing  how to exercise for ideal weight loss. Or you can watch it later at the Exercise section.\n Want to watch it now?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "User Provides A8 All Not Correct": {
+        "texts": [
+            "{Nickname}, thank you for those Answers!",
+            "I can help you optimize your weight loss by improving how you exercise, which is also crucial for your overall health.",
+            "I recommend you now watch this short video with Will and Eric discussing  how to exercise for ideal weight loss. Or you can watch it later at the Exercise section.\n Want to watch it now?"
+            
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "User Confirms Video": {
+        "texts": [
+            "{Nickname}, did you find the information in the video useful?"
+        ],
+        "buttons": [
+            "Brilliant",
+            "Average",
+            "Awful"
+    
+        ]
+    },
+    "User Denies Video": {
+        "texts": [
+            "{Nickname}, per today’s conversation..."
+        ],
+        "buttons": [
+            "Yes"
+        ]
+    },
+    "A1 Correct": {
+        "texts": [
+            "It’s crucial for optimal weight loss that you have a 60-minute walk every day, at any time between 6am and 7pm. Ideally, outdoors, if weather allows. It’s also crucial to never become short of breath during this walk. If you can keep a normal conversation while you walk, you are walking at the right pace. Also, you should NOT perform any physical activity at which you become short of breath, as such activity will make you gain weight. The only exception to this rule is doing HIIT for three minutes, three times per week. Lastly, I highly recommend you lift weights three times per week. Once again, without becoming short of breath. Are you still with me?"
+        ],
+        "buttons": [
+            "No"
+        ]
+    },
+    "A2 Correct": {
+        "texts": [
+            "To improve your sleep and lose weight, it's crucial that you turn off all lights and screens between 9:30pm and 10:30pm every night, as humans have done for the last 2 million years until the invention of the TV. Does this make sense to you?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "A3 Correct": {
+        "texts": [
+            "It should take you less than 30 minutes to fall asleep since you turn off all lights. One solution: Get as much daylight as possible. Consider working near a glass window and spending time outdoors. Another solution: From 7:00pm reduce lights in the room and wear blue blocker glasses. At 9:00pm turn off all electronics and TVs. I'll provide additional tips in upcoming sessions. Are you with me?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "A4 Correct": {
+        "texts": [
+            "There are several reasons why we sleep less than 7 hours per night, including stress, late dinners, and others. I'll cover all of them in upcoming sessions. Stay tuned, OK?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "A5 Correct": {
+        "texts": [
+            "You aren't supposed to wake up more than once. One solution: Adjust the bedroom's temperature to make it cool. Another solution: Make your room as dark and silent as possible. I'll provide additional tips in upcoming sessions. So far, so good?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "A6 Correct": {
+        "texts": [
+            "Ideally, you should not take anything to facilitate sleep. If you follow my advice during these days, you will be able to sleep naturally at night. Does this sound like a good deal?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "Hydration": { 
+        "texts": [
+            
+            "You've completed today's training. Congratulations! You're one step closer to regaining your health and dream weight. Our next session is a surprise. A very cool surprise that will give you a 95% chance of success with ActibHealth. You’ll be thrilled once you take our next training. Can I count on you to reconnect with me here at the same time tomorrow to continue your transformational weight loss journey?"
+        ],
+        "buttons": [
+            "Yes"
+            
+        ]
+    }
+}

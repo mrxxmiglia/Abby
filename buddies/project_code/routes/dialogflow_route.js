@@ -443,7 +443,7 @@ const handleLastConversation = (req) => {
   let a_six = parameters.a_six;
   
 
-  let metadata = [
+  /*let metadata = [
     
     {
       MetadataName: "Daily Walk",
@@ -468,32 +468,40 @@ const handleLastConversation = (req) => {
       MetadataName: "Video_Useful",
       MetadataValue: parameters.video_useful,
     },
-  ];
+  ];*/
 
   let metadata1 = [
     {
-      MetadataName: "Sleep_Behavior",
-      MetadataValue: parameters.b_time,
+      QuestionID: "2",
+      UserAnswer: parameters.b_time,
     },
     {
-      MetadataName: "Sleep_Behavior1",
-      MetadataValue: parameters.b_time1,
+      QuestionID: "3",
+      UserAnswer: parameters.b_time1,
     },
     {
-      MetadataName: "Hydration Behavior",
-      MetadataValue: parameters.b_time2,
+      QuestionID: "4",
+      UserAnswer: parameters.b_time2,
     },
     {
-      MetadataName: "Hydration Behavior2",
-      MetadataValue: parameters.b_time3,
+      QuestionID: "5",
+      UserAnswer: parameters.b_time3,
+    },
+    {
+      QuestionID: "8",
+      UserAnswer: parameters.b_time4,
+    },
+    {
+      QuestionID: "9",
+      UserAnswer: parameters.b_time5,
     }
   ];
 
   let user_token = req.body.originalDetectIntentRequest.payload.userId;
 
-  let response1 = DATABASE_API.set_user_metadata(metadata, user_token);
+  /*let response1 = DATABASE_API.set_user_metadata(metadata, user_token);
   console.log("handleLastConversation + set_user_metadata");
-  console.log(response1);
+  console.log(response1);*/
 
   let response2 = DATABASE_API.set_list_dailyreport(metadata1, user_token);
   console.log("handleLastConversation + set_user_metadata");
@@ -527,7 +535,7 @@ const handleLastConversation = (req) => {
   console.log("terminé con el IF01");
   let new_texts = [];
   let new_buttons = [];
-  console.log("comienzo con el IF02");
+  /*console.log("comienzo con el IF02");
   if (!result.a_one || result.a_one) {
     new_texts = RESPOSES["A1 Correct"].texts;
     new_buttons = RESPOSES["A1 Correct"].buttons;

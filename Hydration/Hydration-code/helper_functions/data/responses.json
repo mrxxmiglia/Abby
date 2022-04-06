@@ -13,7 +13,8 @@
         "texts": [
             "{Nickname}, thank you for those answers!",
             "It seems you are hydrating perfectly well!",
-            "I recommend you now watch this short video with Will and Eric discussing how to properly hydrate for optimal weight loss.\nWant to watch it?"
+            "I recommend you now watch this short video with Will and Eric discussing how to properly hydrate for optimal weight loss. Or you can watch it later at the Hydration section.\n Want to watch it now?"
+    
         ],
         "buttons": [
             "Yes",
@@ -24,7 +25,7 @@
         "texts": [
             "{Nickname}, thank you for those answers!",
             "I can help you lose weight through proper hydration.",
-            "I recommend you now watch this short video with Will and Eric discussing how to properly hydrate for optimal weight loss.\nWant to watch it?"
+            "I recommend you now watch this short video with Will and Eric discussing how to properly hydrate for optimal weight loss. Or you can watch it later at the Hydration section.\n Want to watch it now?"
         ],
         "buttons": [
             "Yes",

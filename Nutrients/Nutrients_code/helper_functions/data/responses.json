@@ -1,0 +1,97 @@
+{
+    "Default Welcome Intent": {
+        "texts": [
+            "{Nickname}, so nice to meet you! Hopefully, you’re having a great day. Today is perhaps the most important training, as nutrition usually accounts for 80 percent of your success in losing weight. I’m so excited we are having this conversation!",
+            "Want to learn what, how and when to eat for optimal weight loss?"
+        ],
+        "buttons": [
+            "Yes"
+            
+        ]
+    },
+    "User Provides A8 All Correct": {
+        "texts": [
+            "{Nickname}, thank you for those Answers!",
+            "It seems you are eating perfectly well!",
+            "I recommend you now watch this short video with Will and Eric discussing how to properly eat for optimal weight loss. Or you can watch it later at the Nutrients section.\n Want to watch it now?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "User Provides A8 All Not Correct": {
+        "texts": [
+            "{Nickname}, thank you for those Answers!",
+            "I can help you lose weight through proper nutrition.",
+            "I recommend you now watch this short video with Will and Eric discussing how to properly eat for optimal weight loss. Or you can watch it later at the Nutrients section.\n Want to watch it now?"
+            
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "User Confirms Video": {
+        "texts": [
+            "{Nickname}, did you find the information in the video useful?"
+        ],
+        "buttons": [
+            "Brilliant",
+            "Average",
+            "Awful"
+        ]
+    },
+    "User Denies Video": {
+        "texts": [
+            "{Nickname}, per today's conversation ..."
+        ],
+        "buttons": [
+            "Yes"
+        ]
+    },
+    "A1 Correct": {
+        "texts": [
+            "If losing weight is important to you, it’s crucial that you finish your last meal by 7pm. Then, don’t eat or drink anything until at least 8am except for water, seltzer, or non-caffeinated herbal teas. If you follow my nutritional recommendation, you will not be hungry during the night. Are you with me?"
+        ],
+        "buttons": [
+            "No"
+        ]
+    },
+    "A2 Correct": {
+        "texts": [
+            "It’s also crucial that you don’t snack between meals and that you have a maximum of three times per day, to reduce your insulin resistance. Likewise, that at least 50 percent of your plate is made of above-ground vegetables. May I continue?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "A3 Correct": {
+        "texts": [
+            "Remember, if you don’t eat sugars, processed foods, bread, pizza, or pasta, you  will not be hungry in between meals. If you do feel hungry, drink a glass of water and the hunger will go away within minutes. So far, so good?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    "A4 Correct": {
+        "texts": [
+            "In the section called Nutrients you will find what to eat, what not to eat and how to eat. For optimal weight loss, please read and follow these instructions carefully. You can make your own recipes or choose from our more than a hundred recipes in the subsection called Meal Selection. Should I go on?"
+        ],
+        "buttons": [
+            "Yes",
+            "No"
+        ]
+    },
+    
+    "Hydration": {
+        "texts": [
+            "{Nickname}, you've completed today's training. Congratulations! You're one step closer to achieving your dream weight, and keeping it forever. Our next session is about stress, which is a big contributor to gaining weight. Can I count on you to reconnect with me here at the same time tomorrow to discuss how to properly control stress for optimal weight loss?"
+        ],
+        "buttons": [
+            "Yes"
+        ]
+    }
+}

@@ -111,6 +111,8 @@ const get_error_message = () => {
 };
 
 const handleDefaultWelcomeIntent = async (req) => {
+
+
   let user_token = req.body.originalDetectIntentRequest.payload.userId;
   let response = await DATABASE_API.get_user_profile(user_token);
   console.log("handleDefaultWelcomeIntent + get_user_profile");
@@ -178,17 +180,17 @@ const handleUserProvidesA8 = async (req) => {
   let a_one = parameters.a_one;
   let a_two = parameters.a_two;
   let a_three = parameters.a_three;
-  let a_four = Number(parameters.a_four);
-  let a_five = Number(parameters.a_five);
+  let a_four = parameters.a_four;
+  let a_five = parameters.a_five;
   let a_six = parameters.a_six;
   let a_seven = parameters.a_seven;
   let a_eight = parameters.a_eight;
-  let a_six_med = "";
+  /*let a_six_med = "";
   if (a_six === "Yes") {
     a_six_med += parameters.a_six_med;
   } else {
     a_six_med += "No medicine.";
-  }
+  }*/
 
   //NEW
 
@@ -215,17 +217,21 @@ const handleUserProvidesA8 = async (req) => {
     flag = false;
     result.a_one = false;
   }
-  flag = check_sleep_time(a_two);
-  result.a_two = flag;
+  if (a_two !== "Between 9:30pm and 10:30pm") {
+    flag = false;
+    result.a_one = false;
+  }
+  //flag = check_sleep_time(a_two);
+  //result.a_two = flag;
   if (a_three !== "Yes") {
     flag = false;
     result.a_three = false;
   }
-  if (a_four <= 7 || a_four >= 9) {
+  if (a_four !== "Between 7 and 9 hours") {
     flag = false;
     result.a_four = false;
   }
-  if (a_five >= 2) {
+  if (a_five !== "Zero or once") {
     flag = false;
     result.a_five = false;
   }
@@ -312,10 +318,11 @@ const handleUserConfirmsVideo = (req) => {
       video_url += course.URL_VideoSubscriber;
     }
   });
-
+  
+  
   let nick_name = user_profile.Content.Nickname;
   let button_link = `${user_profile.Content.URL_PWA}${video_url}`;
-  let button_title = "See the video here...";
+  let button_title = "Click here to watch the video...";
   texts = RESPOSES["User Confirms Video"].texts;
   texts[0] = texts[0].replace("{Nickname}", nick_name);
   let buttons = RESPOSES["User Confirms Video"].buttons;
@@ -465,13 +472,13 @@ const handleLastConversation = (req) => {
 
   
   
-  let a_six = parameters.a_six;
+  /*let a_six = parameters.a_six;
   let a_six_med = "";
   if (a_six === "Yes") {
     a_six_med += parameters.a_six_med;
   } else {
     a_six_med += "No medicine.";
-  }
+  }*/
 
 
   let metadata = [
